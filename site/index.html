@@ -42,7 +42,7 @@
               </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <button class="learn-more-btn open-button" onclick="openForm()">Войти</button>
+                 <button class="learn-more-btn open-button" onclick="openForm()">Войти</button>
                 </div>
               </div>
             </div>
@@ -52,11 +52,14 @@
         <div class="form-popup" id="myForm">
           <form action="#" class="form-container">
             <h1>Введите логин и пароль</h1>
-            <label for="name"><b>Логин</b></label>
+            <label for="login"><b>Логин</b></label>
             <input type="text" placeholder="Логин" name="name" required>
-            <label for="email"><b>Пароль</b></label>
-            <input type="text" placeholder="Пароль" name="email" required>
-            <button type="submit" class="btn">Войти</button>
+            <label for="password"><b>Пароль</b></label>
+            
+            <input type="password" placeholder="Пароль" name="email" required>
+            <label for="soglasie">Согласие на обработку <br/> персональных данных</label>
+            <input type="checkbox" required>
+            <button type="submit" class="btn"><a href="page2.html">Войти</a></button>
             <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
           </form>
         </div>

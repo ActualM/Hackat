@@ -151,7 +151,7 @@ ul.action_info_spis li{
 }
 
 .otstup1{
-    padding-left: 200px;
+    padding-left: 245px;
 }
 .otstup2{
     padding-left: 300px;
@@ -165,50 +165,296 @@ ul.action_info_spis li{
 
 .poluch1{
     position: absolute;
-width: 340px;
+width: 300px;
 height: 72px;
 left: 19px;
 top: 112px;
 
-background: #58E128;
+background: #FA9D12;
 border-radius: 36px;
-
+transition: 300ms;
 }
 .poluch2{
     position: absolute;
-width: 340px;
+width: 300px;
 height: 72px;
 left: 19px;
 top: 215px;
 
-background: #58E128;
+background: #FA9D12;
 border-radius: 36px;
-    
+transition: 300ms;
 }
 .poluch3{
     position: absolute;
-width: 340px;
+width: 300px;
 height: 72px;
 left: 19px;
 top: 335px;
 
-background: #58E128;
+background: #FA9D12;
 border-radius: 36px;
-    
+transition: 300ms;
 }
 .poluch4{
     position: absolute;
-width: 340px;
+width: 300px;
 height: 72px;
 left: 19px;
 top: 431px;
 
-background: #58E128;
+background: #FA9D12;
 border-radius: 36px;
+transition: 300ms;
+    }
+    .poluch1:hover{
+        background: #58E128;
+    }
+    .poluch2:hover{
+        background: #58E128;
+    }
+    .poluch3:hover{
+        background: #58E128;
+    }
+    .poluch4:hover{
+        background: #58E128;
+    }
+    .poluch_button_1{
+        position: absolute;
+        width: 300px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FA9D12;
+        border-radius: 36px;
+        transition: 300ms;
+    }
+    .poluch_button_2{
+        position: absolute;
+        width: 300px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FA9D12;
+        border-radius: 36px;
+        transition: 300ms;
+    }
+    .poluch_button_3{
+        position: absolute;
+        width: 300px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FA9D12;
+        border-radius: 36px;
+        transition: 300ms;
+    }
+    .poluch_button_4{
+        position: absolute;
+        width: 300px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FA9D12;
+        border-radius: 36px;
+        transition: 300ms;
+    }
+    .poluch_button_1:hover{
+        background: #58E128;
+    }
+    .poluch_button_2:hover{
+        background: #58E128;
+    }
+    .poluch_button_3:hover{
+        background: #58E128;
+    }
+    .poluch_button_4:hover{
+        background: #58E128;
     }
 .poluch1_txt{
     position: absolute;
 width: 287px;
+height: 39px;
+left: 5px;
+top: 22px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+
+}
+.poluch2_txt{
+    position: absolute;
+width: 287px;
+height: 39px;
+left: 5px;
+top: 22px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+    
+}
+.poluch3_txt{
+    position: absolute;
+width: 287px;
+height: 39px;
+left: 5px;
+top: 22px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+    
+}
+.poluch4_txt{
+    position: absolute;
+width: 287px;
+height: 39px;
+left: 5px;
+top: 22px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+}
+
+
+.sprav_form_1_txt{
+    position: absolute;
+    width: 398px;
+    height: 73px;
+    left: 350px;
+    top: 135px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.sprav_form_2_txt{
+    position: absolute;
+width: 398px;
+height: 73px;
+left: 350px;
+top: 237px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+.sprav_form_3_txt{
+    position: absolute;
+width: 398px;
+height: 73px;
+left: 350px;
+top: 357px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+.sprav_form_4_txt{
+    position: absolute;
+width: 398px;
+height: 73px;
+left: 350px;
+top: 455px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+.obrabot1{
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 770px;
+top: 117px;
+
+background: #FA9D12;
+border-radius: 36px;
+}
+.obrabot2{
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 770px;
+top: 221px;
+
+background: #FA9D12;
+border-radius: 36px;
+}
+.obrabot3{
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 770px;
+top: 331px;
+
+background: #58E128;
+border-radius: 36px;
+}
+.obrabot4{
+    position: absolute;
+width: 218px;
+height: 60px;
+left: 770px;
+top: 434px;
+
+background: #58E128;
+border-radius: 36px;
+}
+.obrabot1_txt{
+    position: absolute;
+    width: 167px;
+    height: 39px;
+    left: 32px;
+    top: 17px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+   
+    color: #FFFFFF;
+    
+}
+.obrabot2_txt{
+    position: absolute;
+width: 176px;
 height: 39px;
 left: 32px;
 top: 17px;
@@ -218,17 +464,290 @@ font-style: normal;
 font-weight: normal;
 font-size: 22px;
 line-height: 27px;
+
+
+color: #FFFFFF;
+}
+.obrabot3_txt{
+    position: absolute;
+width: 160px;
+height: 39px;
+left: 32px;
+top: 17px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+}
+.obrabot4_txt{
+    position: absolute;
+width: 163px;
+height: 39px;
+left: 32px;
+top: 17px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+
+
+color: #FFFFFF;
+
+}
+
+.dateA1{
+    position: absolute;
+    width: 217px;
+    height: 42px;
+    left: 1083px;
+    top: 135px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+}
+.dateA2{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1083px;
+top: 238px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateA3{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1083px;
+top: 350px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateA4{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1083px;
+top: 455px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateB1{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1420px;
+top: 135px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateB2{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1420px;
+top: 238px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateB3{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 1420px;
+top: 350px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+}
+.dateB4{
+    position: absolute;
+    width: 217px;
+    height: 42px;
+    left: 1420px;
+    top: 455px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.sprav1_col_1_txt{
+    position: absolute;
+    width: 628px;
+    height: 38px;
+    left: 125px;
+    top: 15px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.sprav2_col_1_txt{
+    position: absolute;
+width: 597px;
+height: 36px;
+left: 200px;
+top: 14px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #FFFFFF;
+
+}
+.sprav3_col_1_txt{
+    position: absolute;
+    width: 628px;
+    height: 38px;
+    left: 200px;
+    top: 15px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  
+    
+    color: #FFFFFF;
+    
+    
+}
+.sprav1_col_2_txt{
+    position: absolute;
+width: 234px;
+height: 41px;
+left: 166px;
+top: 25px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
 text-transform: capitalize;
 
 color: #FFFFFF;
 
 }
-.poluch2_txt{
-    
+.sprav2_col_2_txt{
+
+    position: absolute;
+width: 234px;
+height: 41px;
+left: 166px;
+top: 25px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+
+color: #FFFFFF;
 }
-.poluch3_txt{
+.sprav3_col_2_txt{
+    position: absolute;
+    width: 234px;
+    height: 41px;
+    left: 166px;
+    top: 25px;
     
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
-.poluch4_txt{
+
+.button_sprav_1{
+    position: absolute;
+    width: 567px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
     
+    background: linear-gradient(0deg, #265B81, #265B81), linear-gradient(0deg, #265B81, #265B81), #265B81;
+    
+    background: linear-gradient(0deg, #265B81, #265B81), linear-gradient(0deg, #265B81, #265B81), #265B81;
+    border-radius: 50px;
+    transition: 300ms;
+}
+.button_sprav_2{
+    position: absolute;
+width: 567px;
+height: 78px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #265B81, #265B81), linear-gradient(0deg, #265B81, #265B81), #265B81;
+border-radius: 50px;
+transition: 300ms;
+}
+.button_sprav_3{position: absolute;
+    width: 567px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, #265B81, #265B81), linear-gradient(0deg, #265B81, #265B81), #265B81;
+border-radius: 50px;
+transition: 300ms;
+}
+.button_sprav_1:hover{
+background: #58E128;
+
+}
+.button_sprav_2:hover{
+    background: #58E128;
+}
+.button_sprav_3:hover{
+    background: #58E128;
 }
